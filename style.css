@@ -1,0 +1,38 @@
+body{
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+div.container-fluid{
+    width:900px;
+    height:60px;
+     z-index:0 auto;
+    position: fixed;
+    background-color: #fff;
+}
+.header{
+    color: rgb(131, 131, 240);
+    font-weight: bold;
+}
+.intro{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	color: #959597 !important;
+	vertical-align: middle;
+}

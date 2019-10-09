@@ -1,90 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pelican Startup and Business Template</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Mywork</title>
-    <link  type="text/css" rel="stylesheet" href="style.css" >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <div>
-        <nav class="navbar navbar-light bg-light fixed=top">
-                <div class="container-fluid">
-                  <div class="navbar-header">
-                    
-                    <a class="navbar-brand" href="#">Pelican.</a>
-                  </div>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Features</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Reviews</a></li>
-                      <li><a href="#">Pricing</a></li>
-                      <li><a href="#">Signup</a></li>
-                    </ul>
-                   
-                  </div>
-                </div>
-              </nav>
-    </div>
+  <header>
+    
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <a class="navbar-brand" href="#">Pelican.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto col-lg-7 col-md-6">
+          <li class="nav-item pr3">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item pr3">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item pr3">
+            <a class="nav-link" href="#">Services</a>
+          </li>    
+          <li class="nav-item pr3">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>   
+          <li class="nav-item pr3">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>  
+          <li class="nav-item pr3">
+            <a class="nav-link" href="#">Signup</a>
+          </li> 
+        </ul>
+      </div>  
+    </nav>
+    <br>
+
+    
+  </header>
+
+  <section class="section_1">
     <div class="container">
-        <h5 class="header">TRENDING NEWS</h5>
+      <div class="Flex_1">
+        <div class="section_1Left col-6">
+          <h5>TRENDING NEWS</h5>
+          <h2>Securely manage your Cloud data</h2>
+          <p>Best in class big data software and analytics services will render your chunks into meaningful
+            data.</p>
+          <input type="text" placeholder="Type your email address">
 
-        <h1 class="intro">Securely manage your  Cloud data</h1>
-        <p> Best in class big data sofware and analytics services will render your chunks into meaningful data.</p>
-    <input type="search" placeholder="Type your email address" >
-    <input  type="button" onclick="" value="Get Started" >
-        <p>14-day free and no credit card required.</p>
+          <button type="button" class="btn btn-primary">Get Started</button>
+
+          <p class="smallP">14-day free trial and no credit card required.</p>
         </div>
-        <div  class="container">
-            <h3>Welcome to Pelican,where data matters.</h3>
-            <p>We'll Deliver the best stories and ideas on the topics you care about most straight to your homepage,app,or inbox.</p>
-             </div>
-             <div class="container">
-                 <h3>Fluid Layout</h3>
-                 <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        <div class="col-1"></div>
+
+        <div class="section_1Right col-6">
+          <img src="http://ydirection.com/Pelican/assets/images/hero.png" style="width: 100%">
+
         </div>
-        <div class="container">
-                <h3>Responsive</h3>
-                <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="section_2">
+    <div class="container">
+      <div class="flex_2">
+        
+
+        <div class="section_2title">
+          <h2>Welcome to Pelican, where  <br />data matters.</h2>
+          <p>We’ll Deliver the best stories and ideas on the topics you care about <br /> most straight to your
+            homepage, app, or inbox.</p>
+
+        </div>
+
+      </div>
+      
+
+
+      <div class="d-flex text-center 6div">
+
+        <div class="col-3 fluidLayout icn">
+          <i class="fas fa-wifi" style="color: rgb(7, 182, 182);font-size: 31px"></i>
+          <h4 class="p-4">Fluid Layout</h4>
+          <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        </div>
+        <div class="col-3 responsive icn">
+          <i class="far fa-map" style="color:rgb(168, 247, 247);font-size: 31px"></i>
+          <h4 class="p-4">Responsive</h4>
+          <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        </div>
+        <div class="col-3 hyperThreading icn">
+          <i class="fas fa-comments pt-5" style="color:rgb(218, 204, 13);font-size: 31px"></i>
+          <h4 class="p-4">Hyper Threading</h4>
+          <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        </div>
+      </div>
+
+      <div class="d-flex text-center sixDiv pb-5">
+        <div class="col-3 userFriendly icn">
+          <i class="fas fa-map-marker-alt pt-5" style="color:rgb(245, 106, 129);font-size: 31px"></i>
+          <h4 class="p-4">User Friendly</h4>
+          <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        </div>
+        <div class="col-3 Algorithms icn">
+          <i class="fas fa-users pt-5" style="color:rgb(114, 241, 241);font-size: 31px"></i>
+          <h4 class="p-4">AI Algorithms</h4>
+          <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        </div>
+        <div class="col-3 builtinCamera icn">
+          <i class="fas fa-lock pt-5" style="color:rgb(224, 101, 122);font-size: 31px"></i>
+          <h4 class="p-4">Built In Camera</h4>
+          <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section_3">
+    <div class="container">
+      <div class="fourthFlex d-flex">
+
+        <div class="col-6 section_4Left">
+          <div class="BestSupport">
+            <i class="fas fa-wifi" style="color: rgb(7, 182, 182);font-size: 31px"></i>
+            <h3>Best Support</h3>
+            <p>Team hangouts and instant text messaging right from the dashboard.</p>
+
+          </div>
+          <div class="Secure Servers">
+            <i class="fas fa-comments" style="color:rgb(240, 108, 169);font-size: 31px"></i>
+            <h3>Secure Servers</h3>
+            <p>Team hangouts and instant text messaging right from the dashboard.</p>
+
+          </div>
+          <div class="Third Feature">
+            <i class="far fa-map" style="color:rgb(132, 243, 104);font-size: 31px"></i>
+            <h3>Secure Servers</h3>
+            <p>Team hangouts and instant text messaging right from the dashboard.</p>
+
+          </div>
+
+        </div>
+        <div class="col-1"></div>
+
+        <div class="col-5 section_4Right">
+          <img src="http://ydirection.com/Pelican/assets/images/feature.png" alt="img-2" style="width: 100%">
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section_4">
+    <div class="section_4Flex d-flex">
+      <div class="col-6 section_4Left">
+        <h2>Pelican Analytics now got the next level</h2>
+        <p>Just get the code and sit tight, you'll witness its power and performance in lead conversion.
+          Powerful and productive technology.</p>
+        <button type="button" class="btn btn-outline-primary ">GET PELICAN</button>
+
+      </div>
+
+      <div class="col-6 section_4Right">
+<img src="http://ydirection.com/Pelican/assets/images/ww.jpg" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section_5">
+    <div class="container">
+      <div class="row text-center">
+      <div class="col-sm-12">
+
+        <div class=" section_5Head">
+          <h5>OUR RESULTS</h5>
+          <h2>Outstanding annual results from <br />our awesome Team</h2>
+        </div>
        </div>
-       <div class="container">
-            <h3>Hyper threading</h3>
-            <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
-   </div>
-   <div class="container">
-        <h3>User Friendly</h3>
-        <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
-</div>
-<div class="container">
-        <h3>Al Algorithms</h3>
-        <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
-</div>
-<div class="container">
-        <h3>Built-in Camera</h3>
-        <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
-</div>
-<div class="container">
-<h3>Best Support</h3>
-<p>Team hangouts and instant text messaging right from the dashboard.</p>
-<h3>Secure Servers</h3>
-<p>Team hangouts and instant text messaging right from the dashboard.</p>
-<h3>Third feature</h3>
-<p>Team hangouts and instant text messaging right from the dashboard.</p>
+      </div>
 
+      <div class="d-flex text-center fourdiv mt-5 pl-5 pr-5 mb-5">
+        <div class="col-3 ">
+          <i class="far fa-folder"></i>
+          <h2 class="mt-5">787%</h2>
+          <p>Higher Profits</p>
+
+        </div>
+
+        <div class="col-3">
+          <i class="fas fa-camera-retro"></i>
+          <h2 class="mt-5">999%</h2>
+          <p>Lorem Ipsum</p>
+
+        </div>
+
+        <div class="col-3">
+          <i class="fas fa-comment"></i>
+          <h2 class="mt-5">9897%</h2>
+          <p>Random Fact</p>
+
+        </div>
+
+        <div class="col-3">
+          <i class="fas fa-thumbs-up"></i>
+          <h2 class="mt-5">72548%</h2>
+          <p>Satisfied</p>
+
+        </div>
+
+      </div>
 </div>
-<div class="container">
-    <h1>Pelican Analytics now got the next level</h1>
-    <p>Just get the code and sit tight, you'll witness its power and performance in lead conversion. Powerful and productive technology.</p>
-    <br />
-    <input type="button" value="Get Pelican" onclick="">
-</div>
+</section>
+
+<section class="section_6">
+  <div class="container">
+    <div class="flex_3">
+      <h1>Served our best for the<br /> awesome clients</h1>
+      <p>We have very fair pricing policy that would benefit you and us at the same <br />time. Get the free plan & if you need more - pay.</p>
+     </div>
+     <div id="demo" class="carousel slide" data-ride="carousel">
 
 
-   
+    </section>
+
+<section class="section_7">
+  <div class="container">
+    <div class="flex_4">
+    <div class="row ">
+      <div class="col-sm-12">
+    <div class="  section_7Head">
+      <h1>Our Pricing Plans.</h1>
+      <p>Our plans are designed to meet the requirements of both beginners <br />
+          and players. Get the right plan that suits you.
+          </p>
+          <div class="d-flex text-center">
+            <div class="col-6 section_7Left" >
+              <h3>Limited Freemium</h3>
+              <p>Free limited features</p>
+              <h1>Free</h1>
+              <button type="button" class="btn btn-primary">DOWNLOAD</button>
+            </div>
+            <div class="col-6 section_7Right">
+
+            <h3>Subscription</h3>
+              <p>Unlimited Lifetime</p>
+              <h1>$99.99</h1>
+              <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+              </div>
+          </div>
+        </div>
+          <p class="smm">* Refund requests can be placed with in 7 days of the purchase</p>
+      </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  </section>
 </body>
+
 </html>
